@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bg
+{
+	background-image:url(back.jpg);
+}
+.im
+{
+	width:160px;
+	height:200px;
+	margin-left:10px;
+	display:inline-block;
+	box-shadow:3px 3px,10px,#666;
+}
