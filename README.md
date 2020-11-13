@@ -1,2 +1,2 @@
 # WEB
-Practice
+js, jquery, php
