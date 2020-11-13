@@ -1,0 +1,27 @@
+<html>
+<body>
+<h1>Javascript Can be Used for Validating The Data</h1>
+<br>
+Please Enter a Number between 1 & 10.
+<br>
+<br>
+<input type="number" id="numb"> &nbsp;<button type="button" onClick="change()">Click Me</button>
+<p id="demo"></p>
+</body>
+</html>
+<script>
+function change()
+{
+var a, text;
+a=document.getElementById("numb").value;
+if(a<1 || a>10)
+{
+text="Input Is Invalid";
+}
+else
+{
+text="input is Valid";
+}
+document.getElementById("demo").innerHTML=text;
+}
+</script>

@@ -1,0 +1,23 @@
+<html>
+<body>
+<h3>Function in Javascript to find the factorial of anumber.</h3>
+Please enter a number &nbsp;&nbsp;&nbsp;<input type="text" size="20" id="text1"/>
+<br/>
+<button type="button" onClick="abc()">Click Me</button>
+<p>Factorial of the number is displayed in the textbox given below</p>
+The factorial of Number entered is &nbsp;&nbsp;&nbsp;<input type="text" size="20" id="text2"/>
+</body>
+<script>
+function abc()
+{
+var a=document.getElementById("text1").value;
+var fact=1;
+var i;
+for(i=a;i>=1;i--)
+{
+fact=fact*i;
+}
+document.getElementById("text2").value=fact;
+}
+</script>
+</html>

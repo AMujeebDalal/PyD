@@ -1,0 +1,19 @@
+ <html>
+ <body>
+
+ <p>Click the button to ______ a global (/g) search ___ the letters "ain" (/ain) __ a string, and display ___ matches. </p>
+
+ <button onclick="myFunction()">Try it </button>
+
+ <p id="demo" />
+
+ <script>
+function myFunction() {
+    var str = "The rain in SPAIN stays mainly in the plain"; 
+    var res = str.match(/ain/g);
+    document.getElementById("demo").innerHTML = res;
+}
+</script>
+
+ </body>
+ </html>

@@ -1,0 +1,21 @@
+<html>
+<body>
+<h3>Function to create an object in Javascript</h3>
+Click on the button to view the details of Object. &nbsp;&nbsp;<button type="button" onClick="abc()">Click Me</button>
+<p id="demo"></p>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+</body>
+<script>
+var car={name:"Audi", model:"A4", weight:1200, price:7500000};
+function abc()
+{
+
+document.getElementById("demo").innerHTML=car.name;
+document.getElementById("demo1").innerHTML=car.model;
+document.getElementById("demo2").innerHTML=car.weight;
+document.getElementById("demo3").innerHTML=car.price;
+}
+</script>
+</html>

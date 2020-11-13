@@ -1,0 +1,25 @@
+<html>
+ <body>
+
+ <p>Click the button to ____ through a block of ____ as long as i __ less than 10. </p>
+
+ <button onclick="myFunction()">Try it </button>
+
+ <p id="demo" />
+
+ <script>
+function myFunction() {
+    var text = "";
+    var i = 0;
+    do {
+        text += "<br>The number is " + i;
+        i++;
+    }
+    while (i < 5)  
+    document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+ </body>
+ </html>
+ 

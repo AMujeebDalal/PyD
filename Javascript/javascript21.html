@@ -1,0 +1,25 @@
+<html>
+<body>
+<h3>Recursive function to find the Factorial</h3>
+<br/>
+Enter a Number: &nbsp;&nbsp;&nbsp;<input type="text" size="20" id="text1"/>
+<br/><br/>
+Click on the Button &nbsp;&nbsp;&nbsp;<button type="button" onClick="abc()">Click Me</button>
+<br/><br/>
+The factorial of number is: &nbsp;&nbsp;&nbsp;<input type="text" size="20" id="text2"/> 
+</body>
+<script>
+function abc()
+{
+var n=document.getElementById("text1").value;
+document.getElementById("text2").value=fact(n);
+function fact(n)
+{
+if(n==0)
+return 1;
+else
+return(n*fact(n-1));
+}
+}
+</script>
+</html>

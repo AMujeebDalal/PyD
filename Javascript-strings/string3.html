@@ -1,0 +1,19 @@
+<html>
+ <body>
+
+ <p id="p1">Please locate where 'locate' is present in the sentence!. </p>
+
+ <button onclick="myFunction()">Try it </button>
+
+ <p id="demo" />
+
+ <script>
+function myFunction() {
+    var str = document.getElementById("p1").innerHTML;
+    var pos = str.indexOf("locate");
+    document.getElementById("demo").innerHTML = pos;
+}
+</script>
+
+ </body>
+ </html>

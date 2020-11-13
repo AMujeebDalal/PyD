@@ -1,0 +1,22 @@
+<html>
+<head>
+<script src="jquery-3.1.1.min.js"></script>
+<script>
+$(document).ready(function()
+{
+$("button").click(function()
+{
+$("p").slideToggle("slow",function()
+{
+alert("The paragraph is now hidden");
+});
+});
+});
+</script>
+</head>
+<body>
+<p>Click on the button to hide the paragraphs.</p>
+<p>This is another paragraph.</p>
+<button>Click Me</button>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<html>
+<body>
+<h1>Javascript Can Change HTML Images.</h1>
+<img id="myImage" onClick="changeImage()" src="pic_bulboff.gif" width="100" height="180"/>
+<p>Click on the image to change it.</p>
+</body>
+</html>
+<script>
+function changeImage()
+{
+var a=document.getElementById("myImage");
+if(a.src.match("pic_bulboff"))
+{
+a.src="pic_bulbon.gif";
+}
+else
+{
+a.src="pic_bulboff.gif";
+}
+}
+</script>
